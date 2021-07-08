@@ -24,7 +24,7 @@
     height: 100%;
     width: 100%;
 
-    opacity: 0.8;
+    opacity: 0.7;
     background-image: linear-gradient(to left bottom, #c4b970, #c4b45d, #c6af4a, #c7a935, #c9a319);
 }
 
@@ -54,6 +54,15 @@
 
     opacity: 0.8;
     background-image: linear-gradient(to right top, #3087f2, #3680ed, #3c79e7, #4172e2, #466bdc, #4c64d7, #525ed1, #5757cb, #5e4fc4, #6446bd, #6a3cb5, #6f32ad);
+}
+
+.black-fadded{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    opacity: 0.3;
+    background-image: linear-gradient(to right, #051937, #232941, #393a4b, #4d4c55, #606060);
 }
 
 #skills{
@@ -120,6 +129,7 @@ font-size: 1.05em;
 #portfolio{
     background-color:#fbfbfd;
     position: relative;
+   
 }
 #portfolio .btn{
     color:white;text-decoration: underline;
@@ -152,6 +162,11 @@ font-size: 1.05em;
   
   .image-container:hover .image-content {
     opacity: 1;
+  }
+
+  .portfolio-img{
+      width: 100%;
+      height: 100%;
   }
 .portfolio-img-div{
     

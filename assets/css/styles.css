@@ -110,7 +110,7 @@ font-size: 1.05em;
 } 
 
 .skill-header{
-    font-family: 1em !important;
+    font-size: 1.7rem !important;
     color: black;
     margin-bottom: 50px;
 }
@@ -120,6 +120,10 @@ font-size: 1.05em;
   margin: 0;
   padding: 0;
 
+}
+
+#skills .icon{
+    font-size:50px;color:var(--primary);margin-bottom: 25px;
 }
 
 .list-item{
@@ -239,9 +243,6 @@ font-size: 1.05em;
 
 
 
-
-
-
 }
 
 
@@ -249,4 +250,19 @@ font-size: 1.05em;
 
 .container:hover .overlay {
     opacity: 1;
+  }
+
+
+  #about{
+margin-bottom: 0px;
+background: var(--bs-blue)!IMPORTANT;
+color: rgb(238,238,238)!important;
+border: 3px solid grey;
+
+height: 100%;
+  }
+
+
+  .social-content{
+      background: var(--secundary);color: var(--bs-white);margin-top: -226px;margin-bottom: 127px;border-radius: 20px;box-shadow:var(--card-shadow)
   }
